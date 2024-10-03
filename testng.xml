@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Automation">
+<listeners>
+
+<listener class-name="com.qa.TestCases.MyListener"/>
+
+</listeners>
+  <test name="Qfox">
+    <classes>
+      <class name="com.qa.TestCases.Register"/>
+      <class name="com.qa.TestCases.Login"/>
+      <class name="com.qa.TestCases.Search"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.TestCases.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="Qfox(failed)">
+    <classes>
+      <class name="com.qa.TestCases.Search">
+        <methods>
+          <include name="validSearch"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.Search -->
+    </classes>
+  </test> <!-- Qfox(failed) -->
+</suite> <!-- Failed suite [Test Automation] -->
